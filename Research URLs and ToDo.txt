@@ -1,0 +1,16 @@
+http://gkaindl.com/software/arduino-ethernet/bonjour - bonjour / dns softwares
+https://github.com/neophob/EthernetBonjour - modified to work with 1.0
+
+Arduino is running bonjour service to allow for discovery without configuration by avahi program which is pre-built into Ubunto which will be run on the RPi.
+
+TODO:
+
+Create test environment of Ubuntu on USB stick.
+
+Use Avahi to scan all devices on network and add all devices with 'arduino' in their broadcast name to a list along with details such as IP address and MAC address.
+
+Create a PHP / Python script to periodically check these devices and add new devices to a database
+
+Develop database
+
+Develop android app (reads device list from Database?)
